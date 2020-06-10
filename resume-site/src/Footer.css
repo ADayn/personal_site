@@ -1,0 +1,24 @@
+.footer {
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    font-size: 8pt;
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+    background-color: rgb(25, 39, 48);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgb( 256, 256, 256);
+}
+
+a {
+    padding-left: 10pt;
+    padding-right: 10pt;
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
