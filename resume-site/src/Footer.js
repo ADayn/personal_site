@@ -8,13 +8,16 @@ class Footer extends React.Component {
 				<div className="links">
 					<a href="mailto:Albert.Dayn@Colorado.edu"
 					   target="_blank"
-					   rel="noopener noreferrer">Albert.Dayn@Colorado.edu</a> &#124;
+					   rel="noopener noreferrer"
+					   className="link">Albert.Dayn@Colorado.edu</a> &#124;
 					<a href="https://linkedin.com/in/albert-dayn"
 					   target="_blank"
-					   rel="noopener noreferrer">linkedin.com/in/albert-dayn</a> &#124;
+					   rel="noopener noreferrer"
+					   className="link">linkedin.com/in/albert-dayn</a> &#124;
 					<a href="https://github.com/ADayn"
 					   target="_blank"
-					   rel="noopener noreferrer">github.com/ADayn</a>
+					   rel="noopener noreferrer"
+					   className="link">github.com/ADayn</a>
 				</div>
 			</div>
 		);

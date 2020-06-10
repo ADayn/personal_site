@@ -15,7 +15,7 @@
     color: rgb( 256, 256, 256);
 }
 
-a {
+.link {
     padding-left: 10pt;
     padding-right: 10pt;
     color: inherit;
