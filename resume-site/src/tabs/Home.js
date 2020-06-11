@@ -1,15 +1,12 @@
 import React from "react";
 
-class Section extends React.Component {
-	render() {
-		return <div className="section">
-			<h1>{this.props.title}</h1>
-			<div className="section-content">
-				{this.props.children}
-			</div>
-		</div>;
-	}
-}
+const Section = ({ title, children }) =>
+	<div className="section">
+		<h1>{title}</h1>
+		<div className="section-content">
+			{children}
+		</div>
+	</div>;
 
 class Home extends React.Component {
 	render() {
