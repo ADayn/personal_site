@@ -1,8 +1,17 @@
 html, body {
   height: 100%;
+  width: 100%;
 }
 
 .App {
   /*background-color: rgb(230, 232, 226);*/
   height: 100vh;
+}
+
+.content {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  box-sizing: border-box;
 }
