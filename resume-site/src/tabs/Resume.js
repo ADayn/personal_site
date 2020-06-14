@@ -4,7 +4,7 @@ import resume from "../media/resume.pdf"
 
 class Resume extends React.Component {
 	render() {
-		return <div className="content">
+		return <div className="content pdf-container">
 			<embed className="preview" name="plugin"
 			       src={resume}
 			       type="application/pdf"/>

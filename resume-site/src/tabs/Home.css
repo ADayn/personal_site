@@ -6,6 +6,7 @@
 }
 
 .hobby {
+    padding: 10px;
     flex: 1;
     text-align: center;
 }
@@ -24,10 +25,10 @@
     /*transform-origin: top left;*/
 }
 
-.middle-hob {
-    margin-left: 10px;
-    margin-right: 10px;
-}
+/*.middle-hob {*/
+/*    margin-left: 10px;*/
+/*    margin-right: 10px;*/
+/*}*/
 
 .intro-panel {
     width: 100%;

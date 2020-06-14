@@ -1,5 +1,8 @@
 .footer {
     width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
 }
 
 .links {
@@ -9,8 +12,6 @@
     padding-top: 4pt;
     padding-bottom: 4pt;
     background-color: rgb(25, 39, 48);
-    position: fixed;
-    bottom: 0;
     width: 100%;
     color: rgb( 256, 256, 256);
 }
