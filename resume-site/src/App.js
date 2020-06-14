@@ -15,9 +15,11 @@ function App() {
     <Router>
         <div className="App">
             <Header/>
-            <Switch>
-                {tabs.map(to_route)}
-            </Switch>
+            <div className="page-content">
+                <Switch>
+                    {tabs.map(to_route)}
+                </Switch>
+            </div>
             <Footer/>
         </div>
     </Router>

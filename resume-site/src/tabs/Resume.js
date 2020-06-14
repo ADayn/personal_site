@@ -8,7 +8,11 @@ class Resume extends React.Component {
 			<embed className="preview" name="plugin"
 			       src={resume}
 			       type="application/pdf"/>
-
+			<a href={resume} download="Al_Dayn_Resume.pdf">
+				<button>
+					Download
+				</button>
+			</a>
 		</div>;
 	}
 }
