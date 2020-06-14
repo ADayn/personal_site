@@ -1,10 +1,11 @@
 import React from "react";
 import './Footer.css';
+import FlowFix from "./FlowFix";
 
 class Footer extends React.Component {
 	render() {
 		return (
-			<div className="footer">
+			<FlowFix outerClassName="footer">
 				<div className="links">
 					<a href="mailto:Albert.Dayn@Colorado.edu"
 					   target="_blank"
@@ -19,7 +20,7 @@ class Footer extends React.Component {
 					   rel="noopener noreferrer"
 					   className="link">github.com/ADayn</a>
 				</div>
-			</div>
+			</FlowFix>
 		);
 	}
 }

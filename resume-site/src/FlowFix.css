@@ -1,0 +1,5 @@
+/* A simple fix to reserve space for position: fixed elements */
+.fixed-fix {
+    position: static;
+    visibility: hidden !important;
+}

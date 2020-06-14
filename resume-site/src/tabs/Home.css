@@ -1,0 +1,44 @@
+.hobbies {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.hobby {
+    flex: 1;
+    text-align: center;
+}
+
+.hobby-comment {
+    text-align: center;
+    padding: 20px;
+    font-size: 8pt;
+    height: 24pt;
+}
+
+.hobby-media {
+    max-width:100%;
+    height: auto;
+    /*transform: rotate(90deg);*/
+    /*transform-origin: top left;*/
+}
+
+.middle-hob {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.intro-panel {
+    width: 100%;
+    /*vertical padding is strangely based on width so this makes it a square,*/
+    padding-top: 80%;
+    background-size: cover;
+ }
+
+.intro-text {
+    background-color: rgba(0,0,0,0.53);
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+}

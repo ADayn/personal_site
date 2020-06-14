@@ -1,9 +1,14 @@
 import React from "react";
+import './Resume.css';
+import resume from "../media/resume.pdf"
 
 class Resume extends React.Component {
 	render() {
-		return <div>
-			Hello resume!!
+		return <div className="content">
+			<embed className="preview" name="plugin"
+			       src={resume}
+			       type="application/pdf"/>
+
 		</div>;
 	}
 }

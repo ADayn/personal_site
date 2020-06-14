@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="709b095e-faec-45e3-bea1-a72e38426bb7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/deployment/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/bologna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/eclairs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/resume.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/shramps.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/Resume.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tabs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,8 +74,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/tabs" />
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/tabs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager">
@@ -143,7 +156,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591306418106</updated>
-      <workItem from="1591306425973" duration="42007000" />
+      <workItem from="1591306425973" duration="44723000" />
+      <workItem from="1591980499878" duration="23109000" />
     </task>
     <servers />
   </component>
@@ -151,9 +165,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="85" y="122" width="670" height="676" key="search.everywhere.popup" timestamp="1591777240153">
+    <state x="20" y="23" key="#Plugins" timestamp="1591980456336">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="85" y="122" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1591777240153" />
+    <state x="20" y="23" key="#Plugins/0.23.1680.1027@0.23.1680.1027" timestamp="1591980456336" />
+    <state x="134" y="162" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591984215112">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="134" y="162" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1591984215112" />
+    <state x="137" y="23" key="#deployment/Dockerfile" timestamp="1591980059576">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="137" y="23" key="#deployment/Dockerfile/0.23.1680.1027@0.23.1680.1027" timestamp="1591980059576" />
+    <state x="0" y="23" key="SettingsEditor" timestamp="1591980345530">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="0" y="23" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1591980345530" />
+    <state x="85" y="122" width="670" height="676" key="search.everywhere.popup" timestamp="1592069415112">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="85" y="122" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1592069415112" />
   </component>
 </project>

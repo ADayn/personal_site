@@ -1,8 +1,10 @@
 .header {
     width: 100%;
     box-sizing: border-box;
-    background-color: rgb(225, 220, 255);
-    /*color: white;*/
+    background-color: rgb(25, 39, 48);
+    color: white;
+    position: fixed;
+    top: 0;
 }
 
 .nav-bar {

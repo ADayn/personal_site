@@ -2,6 +2,7 @@ import React from "react";
 import './Header.css';
 import { NavLink } from 'react-router-dom';
 import tabs from "./tabs/Tabs";
+import FlowFix from "./FlowFix";
 
 /*
 Deep water:     98, 160, 146
@@ -26,18 +27,19 @@ function to_link(tab) {
 	                title={tab.title}>{tab.title}</NavLink>
 }
 
+
+
 class Header extends React.Component {
 	render() {
 		return (
-			<div className="header">
+			<FlowFix outerClassName="header">
 				<div className="content nav-bar">
 					<div className="name">Albert Dayn</div>
 					<div className="tabs">
 						{tabs.map(to_link)}
 					</div>
 				</div>
-
-			</div>
+			</FlowFix>
 		);
 	}
 }
