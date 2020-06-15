@@ -21,10 +21,12 @@ const Hobby = ({ comment, children }) =>
 
 class Home extends React.Component {
 	render() {
-		return <div className="content">
+		return <div className="home-page">
 			<div className="intro-panel" style={{backgroundImage: `url(${al})`}}>
 				<div className="intro-text">
-
+					<span>Hi</span>
+					<span>I'm</span>
+					<span>Al</span>
 				</div>
 			</div>
 			<Section title="My Hobbies!">
