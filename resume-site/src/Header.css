@@ -1,8 +1,10 @@
+/* DO THIS WIT GRID NEXT TIME! */
+
 .header {
     width: 100%;
     box-sizing: border-box;
-    background-color: rgb(25, 39, 48);
-    color: white;
+    background-color: var(--theme-color-header);
+    color: var(--theme-color-header-text);
     position: fixed;
     top: 0;
 }

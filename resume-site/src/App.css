@@ -1,3 +1,24 @@
+:root {
+  --color-night-sky: rgb(25, 39, 48);
+  --color-gentle-purple: rgb(240, 237, 255);
+  --color-foam-blue: rgb(227, 245, 250);
+  --color-pastel-sand: rgb(255, 243, 217);
+  --color-pastel-sand-alt: rgb(249, 242, 242);
+  --color-deep-water: rgb(98, 160, 146);
+  --color-shallow-water: rgb(134, 178, 166);
+
+  --theme-color-header: var(--color-night-sky);
+  --theme-color-header-text: white;
+
+  /*  Random complimenting themes   */
+  --theme-1: var(--color-gentle-purple);
+  --theme-2: var(--color-foam-blue);
+  --theme-3: var(--color-pastel-sand-alt);
+
+  --theme-1-dark: var(--color-shallow-water);
+  --theme-2-dark: var(--color-deep-water);
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -17,9 +38,12 @@ html, body {
 }
 
 .content {
+  --content-padding: 20px;
+  --content-max-width: 700px;
+
   width: 100%;
-  max-width: 700px;
+  max-width: var(--content-max-width);
   margin: auto;
-  padding: 20px;
+  padding: var(--content-padding);
   box-sizing: border-box;
 }

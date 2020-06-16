@@ -14,11 +14,11 @@ Dark Sand:     235, 205, 171
  */
 
 /*
-Night sky:     25, 39, 48
+Night sky:
 Evening sky:   37, 95, 117
-Gentle purple: 190, 185, 215
+Gentle purple:
 Sunset pink:   232, 163, 186
-Foam Blue:     225, 243, 248
+Foam Blue:
  */
 
 function to_link(tab) {

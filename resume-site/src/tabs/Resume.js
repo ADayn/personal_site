@@ -4,12 +4,12 @@ import resume from "../media/resume.pdf"
 
 class Resume extends React.Component {
 	render() {
-		return <div className="content pdf-container">
-			<embed className="preview" name="plugin"
-			       src={resume}
-			       type="application/pdf"/>
+		return <div className="content pdf-page">
+			<iframe title="resume"
+				    className="preview"
+			        src={resume}/>
 			<a href={resume} download="Al_Dayn_Resume.pdf">
-				<button>
+				<button className="download">
 					Download
 				</button>
 			</a>

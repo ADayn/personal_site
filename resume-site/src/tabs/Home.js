@@ -1,27 +1,14 @@
 import React from "react";
 import './Home.css';
 import al from "../media/al.jpg"
-import bologna from "../media/bologna.jpg"
-import eclairs from "../media/eclairs.jpg"
-import shramps from "../media/shramps.mp4"
+import bologna from "../media/bologna_square.jpg"
+import eclairs from "../media/eclairs_square.jpg"
+import shramps from "../media/shramps_square.mp4"
 
-const Section = ({ title, children }) =>
-	<div className="section">
-		<h1>{title}</h1>
-		<div className="section-content">
-			{children}
-		</div>
-	</div>;
-
-const Hobby = ({ comment, children }) =>
-	<div className="hobby">
-		<div className="hobby-comment">{comment}</div>
-		{children}
-	</div>;
 
 class Home extends React.Component {
 	render() {
-		return <div className="home-page parallax">
+		return <div className="home-page">
 			<div className="intro-panel" style={{backgroundImage: `url(${al})`}}>
 				<div className="intro-text">
 					<div className="intro-greeting">hi i'm</div>
@@ -36,27 +23,28 @@ class Home extends React.Component {
 			<div className="hobbies-area">
 				<div className="content">
 					<div className="hobby-row">
-						<div className="img-parallax-helper parallax__layer--back">
-							<div className="hobby-cell-l ">
-								<img className=" " src={bologna} alt={"Bologna"} />
-							</div>
+						<div className="hobby-cell-l">
+							<img className="hobby-media" src={bologna} alt={"Bologna"} />
 						</div>
-						<div className="hobby-cell-r center-text">This is my dog Balogna!</div>
+						<div className="hobby-cell-r center-text text-1">This is my dog Balogna!</div>
+						<div className="arrow-1 arrow"> </div>
+					</div>
+					<div className="hobby-row">
+						<div className="hobby-cell-l center-text text-2">Shramps had babies!</div>
+						<div className="arrow-2 arrow"> </div>
+						<div className="hobby-cell-r">
+							<video className="hobby-media" src={shramps} autoPlay loop muted/>
+						</div>
+					</div>
+					<div className="hobby-row">
+						<div className="hobby-cell-l ">
+							<img className="hobby-media" src={eclairs} alt={"Eclairs"} />
+						</div>
+						<div className="hobby-cell-r center-text text-3">This is my dog Balogna!</div>
+						<div className="arrow-3 arrow"> </div>
 					</div>
 				</div>
 			</div>
-			<Section title="My Hobbies!">
-				<div className="hobbies">
-					<Hobby comment="My dog Balogna chilling after a long hike">
-					</Hobby>
-					<Hobby comment="These mediocre eclairs are maybe my proudest accomplishment in life">
-						<img className="hobby-media" src={eclairs} alt={"Eclairs"} />
-					</Hobby>
-					<Hobby comment="My ">
-						<video className="hobby-media" src={shramps} autoPlay loop muted/>
-					</Hobby>
-				</div>
-			</Section>
 		</div>;
 	}
 }

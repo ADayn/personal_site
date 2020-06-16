@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="709b095e-faec-45e3-bea1-a72e38426bb7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/media/al.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/media/al.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs/Resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/Resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tabs/Resume.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/Resume.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591306418106</updated>
       <workItem from="1591306425973" duration="44723000" />
-      <workItem from="1591980499878" duration="44707000" />
+      <workItem from="1591980499878" duration="64284000" />
     </task>
     <servers />
   </component>
@@ -169,13 +174,17 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="137" y="23" key="#deployment/Dockerfile/0.23.1680.1027@0.23.1680.1027" timestamp="1591980059576" />
+    <state x="13" y="23" key="CommitChangelistDialog2" timestamp="1592234769955">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="13" y="23" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1592234769955" />
     <state x="0" y="23" key="SettingsEditor" timestamp="1591980345530">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="0" y="23" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1591980345530" />
-    <state x="85" y="122" width="670" height="676" key="search.everywhere.popup" timestamp="1592187807392">
+    <state x="85" y="122" width="670" height="676" key="search.everywhere.popup" timestamp="1592243294710">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="85" y="122" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1592187807392" />
+    <state x="85" y="122" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1592243294710" />
   </component>
 </project>

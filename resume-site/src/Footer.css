@@ -11,9 +11,9 @@
     font-size: 8pt;
     padding-top: 4pt;
     padding-bottom: 4pt;
-    background-color: rgb(25, 39, 48);
+    background-color: var(--theme-color-header);
+    color: var(--theme-color-header-text);
     width: 100%;
-    color: rgb( 256, 256, 256);
 }
 
 .link {
@@ -22,4 +22,10 @@
     color: inherit;
     font-weight: bold;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        position: relative !important;
+    }
 }

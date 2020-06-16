@@ -1,8 +1,38 @@
 .preview {
+    overflow-y: scroll;
     width: 100%;
-    height: 100%;
+    margin-bottom: var(--content-padding);
+    height: calc(100% - var(--download-height) - var(--content-padding));
 }
 
-.pdf-container {
+.download {
+    width: 100%;
+    height: var(--download-height);
+    color: #ffffff;
+    border: none;
+    transition: background 150ms ease-in-out,
+    transform 50ms ease;
+    background: var(--theme-1-dark);
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.download:hover,
+.download:focus {
+    background: var(--theme-2-dark);
+}
+
+.download:focus {
+    outline: 1px solid black;
+    outline-offset: -4px;
+}
+
+.download:active {
+    transform: scale(0.97);
+}
+
+.pdf-page {
     height: 100%;
+
+    --download-height: 40px;
 }
