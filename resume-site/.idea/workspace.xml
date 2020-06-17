@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="709b095e-faec-45e3-bea1-a72e38426bb7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs/Experience.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/Home.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tabs/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs/Resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/Resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tabs/Tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tabs/Tabs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591306418106</updated>
       <workItem from="1591306425973" duration="44723000" />
-      <workItem from="1591980499878" duration="73088000" />
+      <workItem from="1591980499878" duration="79939000" />
     </task>
     <servers />
   </component>
@@ -189,9 +181,9 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="86" y="37" width="667" height="486" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1592363357246" />
-    <state x="85" y="122" width="670" height="676" key="search.everywhere.popup" timestamp="1592243294710">
+    <state x="85" y="122" width="670" height="676" key="search.everywhere.popup" timestamp="1592371569259">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="85" y="122" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1592243294710" />
+    <state x="85" y="122" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1592371569259" />
   </component>
 </project>

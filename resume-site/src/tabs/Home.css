@@ -184,6 +184,59 @@
 
 /*}*/
 
+/*.grid-aspect {*/
+/*    padding-top: 66.66%;*/
+/*    !*height: 0;*!*/
+/*    position: relative;*/
+/*    background-color: green;*/
+/*}*/
+
+/*@media only screen and (max-width: 700px) {*/
+@media screen and (min-width: 600px) {
+    .hobby-grid {
+        grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+        grid-auto-flow: column;
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+    .hobby-grid {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        grid-auto-flow: row;
+    }
+}
+
+.hobby-grid {
+    width: 100%;
+    display: grid;
+}
+
+/* Needed for square grid cells */
+.hobby-grid div::before {
+    content: "";
+    padding-bottom: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bologna {
+    --theme-color: var(--theme-1);
+}
+
+.shramp {
+    --theme-color: var(--theme-2);
+}
+
+.eclair {
+    --theme-color: var(--theme-3);
+}
+
+.hobby-text {
+    padding: 15%;
+    background-color: var(--theme-color);
+}
+
 
 /*!* Requires user to have fixed height *!*/
 /*.parallax {*/
