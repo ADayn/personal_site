@@ -27,8 +27,8 @@ class Home extends React.Component {
 			</div>
 			<div className="pls-scroll">
 				<div className="scroll-area" onClick={scroll_down}>
-					<span>MORE</span>
-					<div className="scroll-arrow"></div>
+					{/*<span>MORE</span>*/}
+					<div className="scroll-arrow"/>
 				</div>
 			</div>
 			<div className="about content center-text">

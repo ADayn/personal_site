@@ -62,8 +62,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     cursor: pointer;
+
+    animation: bounce 2s 3s infinite;
+}
+
+/*.bounce {*/
+/*    animation: bounce 7s 1;*/
+/*}*/
+
+@keyframes bounce {
+    0%   { transform: translateY(0%); }
+    10%  { transform: translateY(20%); }
+    25%  { transform: translateY(0%); }
+    100% { transform: translateY(0%); }
 }
 
 .scroll-button {
@@ -209,30 +222,3 @@
         transform: rotate(-90deg) translateX(-50%);
     }
 }
-
-
-/*!* Requires user to have fixed height *!*/
-/*.parallax {*/
-/*    perspective: 1px;*/
-/*    overflow-x: hidden;*/
-/*    overflow-y: auto;*/
-/*}*/
-/*.parallax__layer {*/
-/*    !*position: absolute;*!*/
-/*    !*top: 0;*!*/
-/*    !*right: 0;*!*/
-/*    !*bottom: 0;*!*/
-/*    !*left: 0;*!*/
-/*}*/
-/*.parallax__layer--base {*/
-/*    transform: translateZ(0);*/
-/*}*/
-
-/*.parallax__layer--back {*/
-/*    transform-style: preserve-3d;*/
-/*    transform: translateZ(-1px) scale(2);*/
-/*}*/
-
-/*.parallax__layer--forward {*/
-/*    transform: translateZ(1px) scale(0.5);*/
-/*}*/
