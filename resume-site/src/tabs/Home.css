@@ -65,7 +65,7 @@
     padding: 20px;
     cursor: pointer;
 
-    animation: bounce 2s 3s infinite;
+    animation: bounce 4s 0s infinite;
 }
 
 /*.bounce {*/
@@ -74,10 +74,32 @@
 
 @keyframes bounce {
     0%   { transform: translateY(0%); }
-    10%  { transform: translateY(20%); }
-    25%  { transform: translateY(0%); }
-    100% { transform: translateY(0%); }
+    80%  { transform: translateY(0%); }
+    85%  { transform: translateY(15%); }
+    90%  { transform: translateY(0%); }
+    95%  { transform: translateY(15%); }
+    100%  { transform: translateY(0%); }
 }
+
+.scroll-tip {
+    opacity: 0;
+    transition: 0.1s;
+}
+
+.scroll-area:hover .scroll-tip {
+    opacity: 1;
+    /*animation: scroll-hover 0.5s;*/
+}
+
+.scroll-area:hover {
+    /*animation-play-state: paused;*/
+    animation: none;
+}
+
+/*@keyframes scroll-hover {*/
+/*    0%   { opacity: 0; }*/
+/*    100% { opacity: 100%; }*/
+/*}*/
 
 .scroll-button {
     cursor: pointer;
