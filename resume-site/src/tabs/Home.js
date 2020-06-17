@@ -8,11 +8,27 @@ import shramps from "../media/shramps_square.mp4"
 
 class Home extends React.Component {
 	render() {
+		function scroll_down() {
+			console.debug("ran");
+			// Scroll certain amounts from current position
+			document.getElementsByClassName("page-content")[0].scrollBy({
+				top: 200, // could be negative value
+				left: 0,
+				behavior: 'smooth'
+			})
+		}
+
 		return <div className="home-page">
 			<div className="intro-panel" style={{backgroundImage: `url(${al})`}}>
 				<div className="intro-text">
 					<div className="intro-greeting">hi i'm</div>
 					<div className="intro-name">AL</div>
+				</div>
+			</div>
+			<div className="pls-scroll">
+				<div className="scroll-area" onClick={scroll_down}>
+					<span>MORE</span>
+					<div className="scroll-arrow"> </div>
 				</div>
 			</div>
 			<div className="about content center-text">

@@ -1,5 +1,6 @@
 .home-page {
     height: 100%;
+    position: relative;
     /*position: fixed;*/
 }
 
@@ -11,6 +12,7 @@
     background-attachment: fixed;
     background-position: center;
     position: relative;
+    color: white;
     z-index: -1; /* needed cause relative positoin is stupid and puts itself on top of everything */
  }
 
@@ -25,7 +27,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
 }
 
 /*.intro-text > div {*/
@@ -33,13 +34,53 @@
 /*}*/
 
 .intro-greeting {
-    font-size: 44pt;
+    font-size: 8vmin;
 }
 
 .intro-name {
     font-weight: bold;
-    font-size: 80pt;
+    font-size: 15vmin;
     line-height: 80%;
+}
+
+.pls-scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 6vh;
+    font-size: 2vh;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+
+.scroll-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.scroll-button {
+    cursor: pointer;
+    z-index: 1;
+}
+
+.scroll-arrow {
+    margin-top: 2px;
+    border-top: var(--width) solid white;
+    width: 0;
+    height: 0;
+    border-left: var(--height) solid transparent;
+    border-right: var(--height) solid transparent;
+
+    --height: 2vh;
+    --width: 2vh;
 }
 
 .about {

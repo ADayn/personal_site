@@ -15,6 +15,7 @@
     background: var(--theme-1-dark);
     font-size: 12pt;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .download:hover,

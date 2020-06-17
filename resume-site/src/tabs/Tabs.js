@@ -1,7 +1,6 @@
 import React from "react";
 import Home from "./Home";
 import Projects from "./Projects";
-import Experience from "./Experience";
 import Resume from "./Resume";
 
 class Tab {
@@ -20,7 +19,6 @@ function register(title, path, component) {
 
 register("Home", "/", <Home/>);
 register("Projects", "/projects", <Projects/>);
-register("Experience", "/experience", <Experience/>);
 register("Resume", "/resume", <Resume/>);
 
 export default tabs;

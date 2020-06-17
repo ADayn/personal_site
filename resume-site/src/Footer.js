@@ -14,7 +14,7 @@ class Footer extends React.Component {
 					<a href="https://linkedin.com/in/albert-dayn"
 					   target="_blank"
 					   rel="noopener noreferrer"
-					   className="link">linkedin.com/in/albert-dayn</a> &#124;
+					   className="link">LinkedIn</a> &#124;
 					<a href="https://github.com/ADayn"
 					   target="_blank"
 					   rel="noopener noreferrer"
