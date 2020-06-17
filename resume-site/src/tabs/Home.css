@@ -98,113 +98,9 @@
     text-align: center;
 }
 
-/*@media only screen and (max-width: 700px) {*/
-
-    .hobbies-area {
-        width: 100%;
-        /*background-color: #cfeff5;*/
-    }
-
-    .hobby-row {
-        width: 100%;
-        position: relative;
-    }
-
-    .hobby-row::after {
-        content: "";
-        display: block;
-        padding-bottom: 50%;
-    }
-
-    .hobby-cell-l, .hobby-cell-r {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        overflow: hidden;
-        background-color: white;
-    }
-
-    .hobby-media {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .hobby-cell-l {
-        right: 50%;
-        left: 0;
-    }
-
-    .hobby-cell-r {
-        right: 0;
-        left: 50%;
-    }
-
-    .arrow {
-        width: 0;
-        height: 0;
-        border-top: var(--height) solid transparent;
-        border-bottom: var(--height) solid transparent;
-        top: 50%;
-        transform: translateY(-50%);
-        position: absolute;
-        z-index: 1;
-
-        --height: 30px;
-        --width: 30px;
-        --shift: 49%;
-    }
-
-    .arrow-1 {
-        border-right: var(--width) solid var(--theme-1);
-        right: var(--shift);
-    }
-
-    .text-1 {
-        background-color: var(--theme-1);
-    }
-
-    .arrow-2 {
-        border-left: var(--width) solid var(--theme-2);
-        left: var(--shift);
-    }
-
-    .text-2 {
-        background-color: var(--theme-2);
-    }
-
-    .arrow-3 {
-        border-right: var(--width) solid var(--theme-3);
-        right: var(--shift);
-    }
-
-    .text-3 {
-        background-color: var(--theme-3);
-    }
-
-/*}*/
-
-/*.grid-aspect {*/
-/*    padding-top: 66.66%;*/
-/*    !*height: 0;*!*/
-/*    position: relative;*/
-/*    background-color: green;*/
-/*}*/
-
-/*@media only screen and (max-width: 700px) {*/
-@media screen and (min-width: 600px) {
-    .hobby-grid {
-        grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-        grid-auto-flow: column;
-    }
-
-}
-
-@media screen and (max-width: 599px) {
-    .hobby-grid {
-        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
-        grid-auto-flow: row;
-    }
+.hobbies-area {
+    width: 100%;
+    /*background-color: #cfeff5;*/
 }
 
 .hobby-grid {
@@ -233,8 +129,85 @@
 }
 
 .hobby-text {
+    font-size: 10pt;
     padding: 15%;
     background-color: var(--theme-color);
+}
+
+.hobby-media {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: top; /* Why tf do images have line heights??? */
+}
+
+.hobby-grid > div {
+    position: relative;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: var(--height) solid transparent;
+    border-right: var(--height) solid transparent;
+    position: absolute;
+
+    --height: 30px;
+    --width: 30px;
+    --shift: -1px;
+}
+
+.arrow-1 {
+    border-bottom: var(--width) solid var(--theme-color);
+}
+
+.arrow-2 {
+    border-top: var(--width) solid var(--theme-color);
+}
+
+/*@media only screen and (max-width: 700px) {*/
+@media screen and (min-width: 600px) {
+    .hobby-grid {
+        grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+        grid-auto-flow: column;
+    }
+
+    .arrow {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .arrow-1 {
+        bottom: var(--shift);
+    }
+
+    .arrow-2 {
+        top: var(--shift);
+    }
+
+}
+
+@media screen and (max-width: 599px) {
+    .hobby-grid {
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+        grid-auto-flow: row;
+    }
+
+    .arrow {
+        top: 50%;
+    }
+
+    .arrow-1 {
+        right: var(--shift);
+        transform-origin: bottom right;
+        transform: rotate(-90deg) translateX(100%);
+    }
+
+    .arrow-2 {
+        left: var(--shift);
+        transform-origin: top left;
+        transform: rotate(-90deg) translateX(-50%);
+    }
 }
 
 
